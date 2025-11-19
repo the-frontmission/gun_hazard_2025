@@ -9,3 +9,11 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 $ node -v
 v22.19.0
 ```
+
+
+GUN HAZARD OST
+https://youtu.be/MKglwlE2y2A?si=BuIFVN7lduEJL0eK
+
+
+culpenetty님의블로그
+https://m.blog.naver.com/culpenetty?categoryNo=6&tab=1
