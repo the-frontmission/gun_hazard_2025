@@ -15,8 +15,7 @@
 }
 
 :root {
-  /* font-family: system-ui, Helvetica, Aral, sans-serif, "Noto Sans KR", "Noto Sans JP"; */
-  --bs-font-sans-serif: system-ui,-apple-system,Roboto,"Noto Sans",Arial,sans-serif,"Noto Sans KR", "Noto Sans JP";
+  --bs-font-sans-serif: system-ui,-apple-system,Roboto,"Noto Sans",Arial,sans-serif,"Noto Sans KR","Noto Sans JP";
   --bs-body-font-family: var(--bs-font-sans-serif);
 }
 
