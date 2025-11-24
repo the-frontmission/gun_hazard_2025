@@ -1,16 +1,22 @@
-import { createMemoryHistory, createRouter } from 'vue-router';
+import { createWebHistory, createRouter } from 'vue-router';
 
 import HomeView from '../views/HomeView.vue';
-import AboutView from '../views/AboutView.vue';
+import GameView from '../views/GameView.vue';
+import CharactersView from '../views/CharactersView.vue';
+import ScriptsView from '../views/ScriptsView.vue';
+import PartsView from '../views/PartsView.vue';
+import VideosView from '../views/VideosView.vue';
 
-createMemoryHistory();
-
-const routes = [
-  { path: '/', component: HomeView },
-  { path: '/about', component: AboutView },
+export const routes = [
+  { path: '/', component: HomeView, name: 'home'},
+  { path: '/game', component: GameView, name: 'game' },
+  { path: '/characters', component: CharactersView, name: 'characters' },
+  { path: '/scripts', component: ScriptsView, name: 'scripts' },
+  { path: '/parts', component: PartsView, name: 'parts' },
+  { path: '/videos', component: VideosView, name: 'videos' },
 ];
 
 export const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHistory(),
   routes,
 });
